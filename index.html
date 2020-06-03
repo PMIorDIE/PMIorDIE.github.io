@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/windows.css">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="SHORTCUT ICON" href="images/logo.ico" type="image/x-icon">
+	<title>Ветеринарная клиника Маленький друг</title>
+
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			
+			<div class="lk">
+				<a href="#login">Вход </a>|
+				<a href="#registration">Регистрация</a>
+			</div>
+			<div class="logo-image"></div>
+				<p class="typewriter"></p>
+			</div>
+
+			<div class="header-inner">
+				<div class="logo">
+					<a class="logo-link" href="index.html">Маленький друг</a>
+				</div>
+				<nav class="nav">
+					<a class="nav-link" href="#">Домой</a>
+					<a class="nav-link" href="#about">О нас</a>
+					<a class="nav-link" href="#services">Услуги</a>
+					<a class="nav-link" href="#staff">Персонал</a>
+					<a class="nav-link" href="#contacts">Контакты</a>
+				</nav>
+			</div>
+			
+		</div>
+<!--Всплывающие окна -->
+	<!-- окно входа-->
+		<div id="login" class="fullsreen_bg">
+			<div class="window">
+				<h4>Вход в систему</h4>
+				<input type="login" name="login_name" placeholder="Логин">
+				<br>
+				<input type="password" name="login_password" placeholder="Пароль">
+				<br>
+				<br>
+				<br>
+				<a href="#" class="btn">Войти</a>
+				<a href="#" class="btn">Закрыть окно</a>
+			</div>
+		</div>
+	<!--окно регистрации -->
+		<div id="registration"class="fullsreen_bg">
+			<div class="window">
+				<h4>Регистрация</h4>
+				<input type="login" name="registration_name" placeholder="Логин">
+				<br>
+				<input type="password" name="registration_password" placeholder="Пароль">
+				<br>
+				<input type="tel" name="registration_phone" placeholder="Номер телефона" pattern="8 [0-9]{3} [0-9]{3}[-][0-9]{2}[-][0-9]{2}">
+				<br>
+				<a href="#" class="btn">Войти</a>
+				<a href="#" class="btn">Закрыть окно</a>
+			</div>
+		</div>
+	<!--окно записи на приём -->
+		<div id="reception" class="fullsreen_bg">
+			<div class="window">
+				<h4>Запись на приём</h4>
+				<p>Нет учетной записи? - <a href="#registration">Зарегистрируйтесь</a></p>
+				<p>Уже зарегестрированы? - <a href="#login">Войдите</a></p>
+				<p>Введите номер телефона, по которому с вами свяжется наш оператор</p>
+				<input type="tel" name="reception_phone" placeholder="Номер телефона" pattern="8 [0-9]{3} [0-9]{3}[-][0-9]{2}[-][0-9]{2}">
+				<a href="#" class="btn">Заказать звонок</a>
+				<a href="#" class="btn">Закрыть окно</a>
+			</div>
+		</div>
+
+
+	</header>
+	<section class="about">
+		<div class="container">
+			<div class="section-header">
+				<h3 class="title_" id="about">О НАС</h3>
+			</div>
+			<div class="info">
+					<p>
+						Современная ветеринарная клиника  представляет собой полнофункциональный комплекс диагностических и лечебных возможностей. Не менее тщательно ветклиника отбирает штат дипломированных специалистов с хорошей практической базой. Градация по специальностям помогает дифференцировать обязанности, объем работ и улучшить качество обслуживания.
+					</p>
+					<p>
+						Мы беспокоимся о нашей с вами безопасности! Наши ветеринары три раза в день проходят осмотр и проводят измерение температуры. С нами надежно!
+					</p>
+					<a href="#" class="button">УЗНАТЬ БОЛЬШЕ<a>
+				</div>
+		</div>
+	</section>
+	<section class="services">
+		<div class="container">
+			<div class="section-header">
+				<h3 class="title_services" id="services">УСЛУГИ</h3>
+				
+			</div>
+			<div class="services-links">
+					<ul>
+						<li><a href="#">Терапия</a></li>
+						<li><a href="#">Хирургия</a></li>
+						<li><a href="#">Анестезиология</a></li>
+						<li><a href="#">Эндокринология</a></li>
+						<li><a href="#">Дерматология</a></li>
+						<li><a href="#">Стоматология</a></li>
+						<li><a href="#">Гастроэнтерология</a></li>
+						<li><a href="#">Кардиология</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Неврология</a></li>
+						<li><a href="#">Офтальмология</a></li>
+						<li><a href="#">Нефрология</a></li>
+						<li><a href="#">Гинекология, акушерство и репродукция</a></li>
+						<li><a href="#">Родильное отделение</a></li>
+						<li><a href="#">Диетология</a></li>
+						<li><a href="#">УЗИ</a></li>
+						<li><a href="#">Рентген</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Эндоскопия</a></li>
+						<li><a href="#">Измерение артериального давления</a></li>
+						<li><a href="#">ЭХО сердца</a></li>
+						<li><a href="#">ЭКГ</a></li>
+						<li><a href="#">Лабораторная диагностика</a></li>
+						<li><a href="#">Вызов на дом</a></li>
+						<li><a href="#">Стационар для животных</a></li>
+						<li><a href="#">Интенсивная терапия и реанимация</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Неотложная хирургия</a></li>
+						<li><a href="#">Вакцинация</a></li>
+						<li><a href="#">Чипирование</a></li>
+						<li><a href="#">Диспансеризация</a></li>
+						<li><a href="#">Физиотерапия и реабилитация</a></li>
+						<li><a href="#">Фитнес для собак</a></li>
+					</ul>
+
+				</div>
+		</div>
+	</section>
+	<section class ="staff">
+		<div class="container">
+			<div class="section-header">
+				<h3 class="title_"id="staff">НАШИ СОТРУДНИКИ</h3>
+			</div>
+			
+			<div class="person">
+				<img src="images/Klimanov.jpg">
+				<h4>Климанов Евгений Вячеславович</h4>
+				<h5>Главный врач</h5>
+			</div>
+
+			<div class="person">
+				<img src="images/Medvedev.jpg">
+				<h4>Медведев Анатолий Андреевич</h4>
+				<h5>Анастезиолог</h5>
+			</div>
+			
+			<div class="person">
+				<img src="images/Loshakov.jpg">
+				<h4>Лошаков Александр Васильевич</h4>
+				<h5>Хирург</h5>
+			</div>
+			
+			<div class="person">
+				<img src="images/Kozmod.jpg">
+				<h4>Козмодемьянов Антон Иванович</h4>
+				<h5>Рентгенолог</h5>
+			</div>
+			
+			<div class="person">
+				<img src="images/Filippov.jpg">
+				<h4>Филиппов Никита Игоревич</h4>
+				<h5>Терапевт</h5>
+			</div>
+			
+			<div class="person">
+				<img src="images/Zuykov.jpg">
+				<h4>Зуйков Даниил Александрович</h4>
+				<h5>Выездной врач</h5>
+			</div>
+			
+			<div class="person">
+				<img src="images/Maneshev.jpg">
+				<h4>Манешев Роман Юрьевич</h4>
+				<h5>Лаборант</h5>
+			</div>
+
+		</div>
+	</section>
+	<section class="footer" id="contacts">
+		<div class="top-footer">
+		<a class="button-footer" href="#reception">Записаться на приём</a>
+		</div>
+		<div class="bot-footer">
+			<div class="footer-info">
+				<h1>8(927)-342-93-74</h1>
+				<h2>Большая красная 55</h2>
+			</div>
+			<div class="footer-nav">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#about">О нас</a></li>
+					<li><a href="#services">Услуги</a></li>
+					<li><a href="#staff">Сотрудники</a></li>
+					<li><a href="#contacts">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="map">
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A644887c0142a164c464bfa9bb9aaf1736125b8852c96b5c89295399b280b7260&amp;width=1030&amp;height=440&amp;lang=ru_RU&amp;scroll=true"></script>
+	</section>
+		
+</body>
+</html>
